@@ -1,0 +1,280 @@
+
+======== COLUMNS courses (22 rows) ========
+  code_module: distinct=7 missing_tokens={} untrimmed=0
+      values={'BBB': 4, 'FFF': 4, 'DDD': 4, 'EEE': 3, 'GGG': 3, 'CCC': 2, 'AAA': 2}
+  code_presentation: distinct=4 missing_tokens={} untrimmed=0
+      values={'2014J': 7, '2013J': 6, '2014B': 6, '2013B': 3}
+  module_presentation_length: distinct=7 missing_tokens={} untrimmed=0
+      values={'269': 5, '241': 5, '268': 4, '240': 3, '262': 2, '261': 2, '234': 1}
+
+======== COLUMNS assessments (206 rows) ========
+  code_module: distinct=7 missing_tokens={} untrimmed=0
+      values={'FFF': 52, 'BBB': 42, 'DDD': 35, 'GGG': 30, 'CCC': 20, 'EEE': 15, 'AAA': 12}
+  code_presentation: distinct=4 missing_tokens={} untrimmed=0
+      values={'2014J': 57, '2014B': 57, '2013J': 53, '2013B': 39}
+  id_assessment: distinct=206 missing_tokens={} untrimmed=0
+  assessment_type: distinct=3 missing_tokens={} untrimmed=0
+      values={'TMA': 106, 'CMA': 76, 'Exam': 24}
+  date: distinct=75 missing_tokens={'': 11} untrimmed=0
+  weight: distinct=24 missing_tokens={} untrimmed=0
+      values={'0': 56, '100': 24, '1': 15, '18': 15, '25': 15, '20': 13, '12.5': 11, '28': 9, '10': 8, '22': 6, '8': 4, '5': 4, '16': 3, '15': 3, '3': 3, '2': 3, '30': 2, '9': 2, '35': 2, '7': 2, '4': 2, '17.5': 2, '6': 1, '7.5': 1}
+
+======== COLUMNS vle (6364 rows) ========
+  id_site: distinct=6364 missing_tokens={} untrimmed=0
+  code_module: distinct=7 missing_tokens={} untrimmed=0
+      values={'FFF': 1967, 'DDD': 1708, 'BBB': 1154, 'CCC': 419, 'AAA': 413, 'GGG': 367, 'EEE': 336}
+  code_presentation: distinct=4 missing_tokens={} untrimmed=0
+      values={'2013J': 1772, '2014B': 1671, '2014J': 1670, '2013B': 1251}
+  activity_type: distinct=20 missing_tokens={} untrimmed=0
+      values={'resource': 2660, 'subpage': 1055, 'oucontent': 996, 'url': 886, 'forumng': 194, 'quiz': 127, 'page': 102, 'oucollaborate': 82, 'questionnaire': 61, 'ouwiki': 49, 'dataplus': 28, 'externalquiz': 26, 'homepage': 22, 'glossary': 21, 'ouelluminate': 21, 'dualpane': 20, 'repeatactivity': 5, 'htmlactivity': 4, 'sharedsubpage': 3, 'folder': 2}
+  week_from: distinct=31 missing_tokens={'': 5243} untrimmed=0
+  week_to: distinct=31 missing_tokens={'': 5243} untrimmed=0
+
+======== COLUMNS studentInfo (32593 rows) ========
+  code_module: distinct=7 missing_tokens={} untrimmed=0
+      values={'BBB': 7909, 'FFF': 7762, 'DDD': 6272, 'CCC': 4434, 'EEE': 2934, 'GGG': 2534, 'AAA': 748}
+  code_presentation: distinct=4 missing_tokens={} untrimmed=0
+      values={'2014J': 11260, '2013J': 8845, '2014B': 7804, '2013B': 4684}
+  id_student: distinct=28785 missing_tokens={} untrimmed=0
+  gender: distinct=2 missing_tokens={} untrimmed=0
+      values={'M': 17875, 'F': 14718}
+  region: distinct=13 missing_tokens={} untrimmed=0
+      values={'Scotland': 3446, 'East Anglian Region': 3340, 'London Region': 3216, 'South Region': 3092, 'North Western Region': 2906, 'West Midlands Region': 2582, 'South West Region': 2436, 'East Midlands Region': 2365, 'South East Region': 2111, 'Wales': 2086, 'Yorkshire Region': 2006, 'North Region': 1823, 'Ireland': 1184}
+  highest_education: distinct=5 missing_tokens={} untrimmed=0
+      values={'A Level or Equivalent': 14045, 'Lower Than A Level': 13158, 'HE Qualification': 4730, 'No Formal quals': 347, 'Post Graduate Qualification': 313}
+  imd_band: distinct=11 missing_tokens={'': 1111} untrimmed=0
+      values={'20-30%': 3654, '30-40%': 3539, '10-20': 3516, '0-10%': 3311, '40-50%': 3256, '50-60%': 3124, '60-70%': 2905, '70-80%': 2879, '80-90%': 2762, '90-100%': 2536, '': 1111}
+  age_band: distinct=3 missing_tokens={} untrimmed=0
+      values={'0-35': 22944, '35-55': 9433, '55<=': 216}
+  num_of_prev_attempts: distinct=7 missing_tokens={} untrimmed=0
+      values={'0': 28421, '1': 3299, '2': 675, '3': 142, '4': 39, '5': 13, '6': 4}
+  studied_credits: distinct=61 missing_tokens={} untrimmed=0
+  disability: distinct=2 missing_tokens={} untrimmed=0
+      values={'N': 29429, 'Y': 3164}
+  final_result: distinct=4 missing_tokens={} untrimmed=0
+      values={'Pass': 12361, 'Withdrawn': 10156, 'Fail': 7052, 'Distinction': 3024}
+
+======== COLUMNS studentRegistration (32593 rows) ========
+  code_module: distinct=7 missing_tokens={} untrimmed=0
+      values={'BBB': 7909, 'FFF': 7762, 'DDD': 6272, 'CCC': 4434, 'EEE': 2934, 'GGG': 2534, 'AAA': 748}
+  code_presentation: distinct=4 missing_tokens={} untrimmed=0
+      values={'2014J': 11260, '2013J': 8845, '2014B': 7804, '2013B': 4684}
+  id_student: distinct=28785 missing_tokens={} untrimmed=0
+  date_registration: distinct=333 missing_tokens={'': 45} untrimmed=0
+  date_unregistration: distinct=417 missing_tokens={'': 22521} untrimmed=0
+
+======== COLUMNS studentAssessment (173912 rows) ========
+  id_assessment: distinct=188 missing_tokens={} untrimmed=0
+  id_student: distinct=23369 missing_tokens={} untrimmed=0
+  date_submitted: distinct=312 missing_tokens={} untrimmed=0
+  is_banked: distinct=2 missing_tokens={} untrimmed=0
+      values={'0': 172003, '1': 1909}
+  score: distinct=102 missing_tokens={'': 173} untrimmed=0
+
+======== PRIMARY KEYS ========
+  PK courses ['code_module', 'code_presentation']: rows=22 duplicates=0
+  PK assessments ['id_assessment']: rows=206 duplicates=0
+  PK vle ['id_site']: rows=6364 duplicates=0
+  PK studentInfo ['code_module', 'code_presentation', 'id_student']: rows=32593 duplicates=0
+  PK studentRegistration ['code_module', 'code_presentation', 'id_student']: rows=32593 duplicates=0
+  PK studentAssessment ['id_assessment', 'id_student']: rows=173912 duplicates=0
+
+======== COURSES ========
+code_presentation  2013B  2013J  2014B  2014J
+code_module                                  
+AAA                  NaN  268.0    NaN  269.0
+BBB                240.0  268.0  234.0  262.0
+CCC                  NaN    NaN  241.0  269.0
+DDD                240.0  261.0  241.0  262.0
+EEE                  NaN  268.0  241.0  269.0
+FFF                240.0  268.0  241.0  269.0
+GGG                  NaN  261.0  241.0  269.0
+
+======== ASSESSMENTS ========
+  null date by type: {'Exam': 11}
+  date > module length: 0
+  date<0: 0
+assessment_type                 CMA   Exam    TMA  total
+code_module code_presentation                           
+AAA         2013J               0.0  100.0  100.0  200.0
+            2014J               0.0  100.0  100.0  200.0
+BBB         2013B               5.0  100.0   95.0  200.0
+            2013J               5.0  100.0   95.0  200.0
+            2014B               5.0  100.0   95.0  200.0
+            2014J               0.0  100.0  100.0  200.0
+CCC         2014B              25.0  200.0   75.0  300.0
+            2014J              25.0  200.0   75.0  300.0
+DDD         2013B              25.0  100.0   75.0  200.0
+            2013J               0.0  100.0  100.0  200.0
+            2014B               0.0  100.0  100.0  200.0
+            2014J               0.0  100.0  100.0  200.0
+EEE         2013J               0.0  100.0  100.0  200.0
+            2014B               0.0  100.0  100.0  200.0
+            2014J               0.0  100.0  100.0  200.0
+FFF         2013B               0.0  100.0  100.0  200.0
+            2013J               0.0  100.0  100.0  200.0
+            2014B               0.0  100.0  100.0  200.0
+            2014J               0.0  100.0  100.0  200.0
+GGG         2013J               0.0  100.0    0.0  100.0
+            2014B               0.0  100.0    0.0  100.0
+            2014J               0.0  100.0    0.0  100.0
+assessment_type                CMA  Exam  TMA
+code_module code_presentation                
+AAA         2013J                0     1    5
+            2014J                0     1    5
+BBB         2013B                5     1    6
+            2013J                5     1    6
+            2014B                5     1    6
+            2014J                0     1    5
+CCC         2014B                4     2    4
+            2014J                4     2    4
+DDD         2013B                7     1    6
+            2013J                0     1    6
+            2014B                0     1    6
+            2014J                0     1    6
+EEE         2013J                0     1    4
+            2014B                0     1    4
+            2014J                0     1    4
+FFF         2013B                7     1    5
+            2013J                7     1    5
+            2014B                7     1    5
+            2014J                7     1    5
+GGG         2013J                6     1    3
+            2014B                6     1    3
+            2014J                6     1    3
+
+======== STUDENT INFO ========
+  enrollments: 32593  distinct students: 28785
+  enrollments per student: {1: 25247, 2: 3293, 3: 221, 4: 23, 5: 1}
+  students taking >1 module in same presentation: 1078
+  (student,module) with >1 presentation: 1271
+  attribute changes across enrollments: gender: students_with_>1_value=0
+  attribute changes across enrollments: region: students_with_>1_value=0
+  attribute changes across enrollments: highest_education: students_with_>1_value=0
+  attribute changes across enrollments: imd_band: students_with_>1_value=0
+  attribute changes across enrollments: age_band: students_with_>1_value=72
+  attribute changes across enrollments: disability: students_with_>1_value=0
+  distinct attribute combinations (student profile): 1913
+  distinct student+profile versions: 28857
+  num_of_prev_attempts: {'0': 28421, '1': 3299, '2': 675, '3': 142, '4': 39, '5': 13, '6': 4}
+  studied_credits: n=32593 null=0 min=30 p1=30 p50=60 p99=240 max=655
+final_result  Distinction  Fail   Pass  Withdrawn    All
+code_module                                             
+AAA                    44    91    487        126    748
+BBB                   677  1767   3077       2388   7909
+CCC                   498   781   1180       1975   4434
+DDD                   383  1412   2227       2250   6272
+EEE                   356   562   1294        722   2934
+FFF                   670  1711   2978       2403   7762
+GGG                   396   728   1118        292   2534
+All                  3024  7052  12361      10156  32593
+final_result       Distinction  Fail   Pass  Withdrawn    All
+code_presentation                                            
+2013B                      327  1241   1768       1348   4684
+2013J                      749  2001   3726       2369   8845
+2014B                      784  1833   2574       2613   7804
+2014J                     1164  1977   4293       3826  11260
+All                       3024  7052  12361      10156  32593
+  module x presentation enrollments:
+code_presentation   2013B   2013J   2014B   2014J
+code_module                                      
+AAA                   NaN   383.0     NaN   365.0
+BBB                1767.0  2237.0  1613.0  2292.0
+CCC                   NaN     NaN  1936.0  2498.0
+DDD                1303.0  1938.0  1228.0  1803.0
+EEE                   NaN  1052.0   694.0  1188.0
+FFF                1614.0  2283.0  1500.0  2365.0
+GGG                   NaN   952.0   833.0   749.0
+  prev_attempts vs earlier rows in dataset: {'equal': 29486, 'attempts>seen': 3107, 'attempts<seen': 0}
+
+======== REGISTRATION ========
+  date_registration: n=32548 null=45 min=-322 p1=-207 p50=-57 p99=-2 max=167
+  date_unregistration: n=10072 null=22521 min=-365 p1=-136 p50=27 p99=228 max=444
+  FK registration->studentInfo: distinct_keys=32593 orphans=0
+  FK studentInfo->registration: distinct_keys=32593 orphans=0
+  unregistered by final_result: {'Withdrawn': 10063, 'Fail': 9}
+  not unregistered by final_result: {'Pass': 12361, 'Fail': 7043, 'Distinction': 3024, 'Withdrawn': 93}
+  unreg<=0 (quit before start): 3097  unreg<reg: 0  unreg>length: 1  reg>0 (registered after start): 234
+  unreg week histogram (Withdrawn): {-5: 1205, -4: 213, -3: 305, -2: 375, -1: 580, 0: 719, 1: 1068, 2: 215, 3: 360, 4: 303, 5: 216, 6: 246, 7: 256, 8: 230, 9: 220, 10: 203, 11: 146, 12: 171, 13: 204, 14: 218, 15: 199, 16: 152, 17: 165, 18: 167, 19: 163, 20: 155, 21: 174, 22: 207, 23: 190, 24: 177, 25: 122, 26: 80, 27: 80, 28: 93, 29: 105, 30: 98, 31: 108, 32: 102, 33: 64, 34: 17, 40: 1}
+
+======== VLE SITES ========
+  FK vle->courses: distinct_keys=22 orphans=0
+  activity_type: {'resource': 2660, 'subpage': 1055, 'oucontent': 996, 'url': 886, 'forumng': 194, 'quiz': 127, 'page': 102, 'oucollaborate': 82, 'questionnaire': 61, 'ouwiki': 49, 'dataplus': 28, 'externalquiz': 26, 'homepage': 22, 'glossary': 21, 'ouelluminate': 21, 'dualpane': 20, 'repeatactivity': 5, 'htmlactivity': 4, 'sharedsubpage': 3, 'folder': 2}
+  week_from filled: 1121 of 6364
+  sites per offering: {('AAA', '2013J'): 211, ('AAA', '2014J'): 202, ('BBB', '2013B'): 315, ('BBB', '2013J'): 321, ('BBB', '2014B'): 311, ('BBB', '2014J'): 207, ('CCC', '2014B'): 196, ('CCC', '2014J'): 223, ('DDD', '2013B'): 428, ('DDD', '2013J'): 462, ('DDD', '2014B'): 453, ('DDD', '2014J'): 365, ('EEE', '2013J'): 112, ('EEE', '2014B'): 109, ('EEE', '2014J'): 115, ('FFF', '2013B'): 508, ('FFF', '2013J'): 529, ('FFF', '2014B'): 478, ('FFF', '2014J'): 452, ('GGG', '2013J'): 137, ('GGG', '2014B'): 124, ('GGG', '2014J'): 106}
+activity_type  dataplus  dualpane  externalquiz  folder  forumng  glossary  homepage  htmlactivity  oucollaborate  oucontent  ouelluminate  ouwiki  page  questionnaire  quiz  repeatactivity  resource  sharedsubpage  subpage  url
+code_module                                                                                                                                                                                                                         
+AAA                   8         0             0       0       21         4         2             0              4        136             0       0     0              0     0               0       188              0       12   38
+BBB                   0         0             0       0       56         5         4             0              6         77             1       0     0              4    19               0       807              3      122   50
+CCC                   0         0             0       0       18         0         2             0              4        105             0       0     4              0    32               0       163              0       59   32
+DDD                   0         0            26       0       53         5         4             0             14         45             4      16     1              0     0               0       706              0      611  223
+EEE                   0         3             0       0       15         0         3             0              7        139             0       7    11              0     6               0       103              0       21   21
+FFF                  20        17             0       2       25         4         4             4             47        419            16      26    86             57    44               5       454              0      215  522
+GGG                   0         0             0       0        6         3         3             0              0         75             0       0     0              0    26               0       239              0       15    0
+
+======== STUDENT ASSESSMENT ========
+  FK sa->assessments: distinct_keys=188 orphans=0
+  FK sa->studentInfo (via assessment's offering): distinct_keys=25843 orphans=0
+  score: n=173739 null=173 min=0 p1=15 p50=80 p99=100 max=100
+  date_submitted: n=173912 null=0 min=-11 p1=-1 p50=116 p99=243 max=608
+  score out of [0,100]: 0
+  is_banked: {'0': 172003, '1': 1909}
+  submissions by type: {'TMA': 98426, 'CMA': 70527, 'Exam': 4959}
+  null score by type: {'TMA': 173}
+  banked date_submitted:  {'min': -1.0, '50%': -1.0, 'max': -1.0}
+  banked in row with null score: 1
+  days late (non-banked):  {'count': 169138.0, 'mean': -15.9, 'std': 45.0, 'min': -246.0, '1%': -210.0, '50%': -1.0, '99%': 17.0, 'max': 372.0}
+  late>0 share (non-banked): 0.2867
+  exam rows per offering:
+code_module code_presentation id_assessment  date_i  weight_i  submissions
+        AAA             2013J          1757     NaN     100.0            0
+        AAA             2014J          1763     NaN     100.0            0
+        BBB             2013B         14990     NaN     100.0            0
+        BBB             2013J         15002     NaN     100.0            0
+        BBB             2014B         15014     NaN     100.0            0
+        BBB             2014J         15025     NaN     100.0            0
+        CCC             2014B         24290     NaN     100.0          747
+        CCC             2014B         40087     NaN     100.0            0
+        CCC             2014J         24299     NaN     100.0         1168
+        CCC             2014J         40088     NaN     100.0            0
+        DDD             2013B         25340   240.0     100.0          602
+        DDD             2013J         25354   261.0     100.0          968
+        DDD             2014B         25361   241.0     100.0          524
+        DDD             2014J         25368     NaN     100.0          950
+        EEE             2013J         30713   235.0     100.0            0
+        EEE             2014B         30718   228.0     100.0            0
+        EEE             2014J         30723   235.0     100.0            0
+        FFF             2013B         34872   222.0     100.0            0
+        FFF             2013J         34885   236.0     100.0            0
+        FFF             2014B         34898   227.0     100.0            0
+        FFF             2014J         34911   241.0     100.0            0
+        GGG             2013J         37424   229.0     100.0            0
+        GGG             2014B         37434   222.0     100.0            0
+        GGG             2014J         37444   229.0     100.0            0
+  submissions after unregistration: 601
+  assessments with zero submissions: ['14990', '15002', '15014', '15025', '1757', '1763', '30713', '30718', '30723', '34872', '34885', '34898', '34911', '37424', '37434', '37444', '40087', '40088']
+  enrollments with no submission at all: 6750
+
+======== STUDENT VLE (10.6M) ========
+  rows: 10655280  nulls: {'code_module': 0, 'code_presentation': 0, 'id_student': 0, 'id_site': 0, 'date': 0, 'sum_click': 0}
+  sum_click: n=10655280 null=0 min=1 p1=1 p50=2 p99=34 max=6977
+  date: n=10655280 null=0 min=-25 p1=-17 p50=86 p99=240 max=269
+  sum_click total: 39605099  sum_click<=0: 0
+  exact duplicate rows: 787170
+  distinct student x site x day: 8459320  avg rows per key: 1.26  max rows per key: 10
+  distinct student x day: 1808119
+  distinct enrollment x week: 627031
+  sites missing from vle.csv: 0
+  distinct enrollment x week x activity: 2518170
+  distinct offering x week x activity: 8436
+  rows by offering: {('AAA', '2013J'): 180982, ('AAA', '2014J'): 169316, ('BBB', '2013J'): 452638, ('BBB', '2014J'): 438424, ('BBB', '2013B'): 403266, ('BBB', '2014B'): 273236, ('CCC', '2014J'): 711646, ('CCC', '2014B'): 496181, ('DDD', '2013J'): 680806, ('DDD', '2014J'): 568901, ('DDD', '2013B'): 536837, ('DDD', '2014B'): 379942, ('EEE', '2013J'): 356262, ('EEE', '2014J'): 402947, ('EEE', '2014B'): 202224, ('FFF', '2013J'): 1172101, ('FFF', '2014J'): 1210359, ('FFF', '2013B'): 946765, ('FFF', '2014B'): 685274, ('GGG', '2013J'): 145995, ('GGG', '2014J'): 117859, ('GGG', '2014B'): 123319}
+  clicks by activity: {'oucontent': 11206803, 'forumng': 7973390, 'quiz': 6981240, 'homepage': 6949064, 'subpage': 3411582, 'resource': 1110132, 'ouwiki': 894512, 'url': 566702, 'oucollaborate': 108974, 'glossary': 87962, 'questionnaire': 64764, 'externalquiz': 64292, 'page': 63631, 'dataplus': 47468, 'ouelluminate': 39028, 'dualpane': 20716, 'htmlactivity': 9239, 'folder': 5420, 'sharedsubpage': 171, 'repeatactivity': 9}
+  distinct site/offering pairs: 6268  not in vle.csv: 0
+  sites never clicked: 96
+  enrollments in VLE: 29228  not in studentInfo: 0
+  enrollments with zero VLE rows: 3365 {'Withdrawn': 2988, 'Fail': 374, 'Pass': 3}
+  enrollments: last click after unregistration: 1279  first click before registration: 0  click after module end: 0
+  clicks before day 0 share: 0.0542
+
+======== ROW ESTIMATE: fact_student_week if densified ========
+  enrollment x every week of the module: 1212577

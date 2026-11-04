@@ -1,0 +1,84 @@
+
+======== J03 dim_student: SQL vs pandas ========
+--- dim_student (0s)
+SELECT 28857
+ sql_rows | only_in_sql | only_in_table 
+----------+-------------+---------------
+    28857 |           0 |             0
+(1 row)
+
+
+
+======== J08 fact_vle_daily: SQL vs pandas ========
+--- fact_vle_daily (27s)
+SELECT 8459320
+ sql_rows | only_in_sql | only_in_table 
+----------+-------------+---------------
+  8459320 |           0 |             0
+(1 row)
+
+
+
+======== J10 fact_student_week: SQL vs pandas, all rows and all columns ========
+--- fact_student_week (8s)
+SELECT 920734
+ sql_rows | only_in_table | only_in_sql | clicks_week | active_days_week | clicks_cum | active_days_cum | days_since | submitted_cum | due_cum | missed_cum | avg_score_cum 
+----------+---------------+-------------+-------------+------------------+------------+-----------------+------------+---------------+---------+------------+---------------
+   920734 |             0 |           0 |           0 |                0 |          0 |               0 |          0 |             0 |       0 |          0 |             0
+(1 row)
+
+
+
+======== LOG DDL ========
+--- apply 02_ddl_etl_log.sql (0s)
+CREATE SCHEMA
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+  table_name  
+--------------
+ check_result
+ job_log
+ run
+(3 rows)
+
+
+
+======== ACCEPTANCE CHECKS (03_kiem_tra_sau_nap.sql) ========
+--- checks (2s)
+               check_name                | expected |  actual  | passed 
+-----------------------------------------+----------+----------+--------
+ agg_vle: so dong                        |     8436 |     8436 | t
+ agg_vle: tong click                     | 39605099 | 39605099 | t
+ dim_assessment: so dong                 |      206 |      206 | t
+ dim_day: so dong                        |      976 |      976 | t
+ dim_offering: so dong                   |       22 |       22 | t
+ dim_result: so dong                     |        4 |        4 | t
+ dim_student: so dong                    |    28857 |    28857 | t
+ dim_student: so sinh vien               |    28785 |    28785 | t
+ dim_vle_site: so dong                   |     6364 |     6364 | t
+ fact_assessment: banked                 |     1909 |     1909 | t
+ fact_assessment: co diem                |   173739 |   173739 | t
+ fact_assessment: nop tre                |    49311 |    49311 | t
+ fact_assessment: sau khi huy            |      601 |      601 | t
+ fact_assessment: so dong                |   173912 |   173912 | t
+ fact_enrollment: khong co hoat dong VLE |     3365 |     3365 | t
+ fact_enrollment: khong ro ngay dang ky  |       45 |       45 | t
+ fact_enrollment: khong ro ngay huy      |       93 |       93 | t
+ fact_enrollment: mau thuan trang thai   |      102 |      102 | t
+ fact_enrollment: so dong                |    32593 |    32593 | t
+ fact_enrollment: tong click             | 39605099 | 39605099 | t
+ fact_student_week: dong sau ngay huy    |        0 |        0 | t
+ fact_student_week: missed_cum > due_cum |        0 |        0 | t
+ fact_student_week: so dong              |   920734 |   920734 | t
+ fact_vle_daily: click sau khi huy       |    98745 |    98745 | t
+ fact_vle_daily: so dong                 |  8459320 |  8459320 | t
+ fact_vle_daily: tong click              | 39605099 | 39605099 | t
+ fact_vle_daily: tong source_rows        | 10655280 | 10655280 | t
+ staging.student_vle: so dong            | 10655280 | 10655280 | t
+ staging.student_vle: tong click         | 39605099 | 39605099 | t
+(29 rows)
+
+
+done
