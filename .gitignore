@@ -1,0 +1,16 @@
+# Dữ liệu gốc: tải theo README (studentVle.csv vượt giới hạn 100 MB mỗi tệp của GitHub)
+data/raw/
+
+# Thư mục làm việc của validate_design.py và gói pgserver cài riêng
+work/
+.pgserver/
+__pycache__/
+
+# Báo cáo và tài liệu giải thích không đưa lên repo
+bao_cao_latex/
+bao_cao_latex_overleaf.zip
+docs/giai_thich/
+docs/giai_thich_tu_dau.pdf
+
+# Bộ nhớ đệm của công cụ
+.impeccable/
