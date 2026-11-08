@@ -1,5 +1,9 @@
 # Dữ liệu gốc: tải theo README (studentVle.csv vượt giới hạn 100 MB mỗi tệp của GitHub)
 data/raw/
+archive (3)/
+
+# Môi trường Python cục bộ
+.venv/
 
 # Thư mục làm việc của validate_design.py và gói pgserver cài riêng
 work/
@@ -14,3 +18,19 @@ docs/giai_thich_tu_dau.pdf
 
 # Bộ nhớ đệm của công cụ
 .impeccable/
+
+# Frontend build
+node_modules/
+src/frontend/dist/
+
+# Gói nộp LMS
+CO4031_*.zip
+
+# Tài liệu môn học, đề bài và bản PDF cũ
+Materials/
+CO4031_Assignment_HK261*.pdf
+latex_.pdf
+
+# Ghi chú làm việc nội bộ
+plans/
+docs/review_kongming_truoc_hien_thuc.md
