@@ -1,0 +1,11 @@
+ANALYZE dw.dim_student;
+ANALYZE dw.dim_offering;
+ANALYZE dw.dim_day;
+ANALYZE dw.dim_result;
+ANALYZE dw.dim_assessment;
+ANALYZE dw.dim_vle_site;
+ANALYZE dw.fact_assessment;
+ANALYZE dw.fact_vle_daily;
+ANALYZE dw.fact_enrollment;
+ANALYZE dw.fact_student_week;
+ANALYZE dw.agg_vle_offering_week_activity;

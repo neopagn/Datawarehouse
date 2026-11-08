@@ -1,0 +1,1 @@
+REFRESH MATERIALIZED VIEW dw.agg_vle_offering_week_activity;
